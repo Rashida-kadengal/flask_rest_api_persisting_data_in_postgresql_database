@@ -1,0 +1,15 @@
+-create db using pgadmin
+-connect db and application using psycopg2 adapter
+-initialize
+    create tables,columns
+    default data
+
+    create db folder
+        db_conn.py
+        db_init.py
+
+-create a repository folder
+        products_repository.py
+        categories_repository.py
+        brands_repository.py
+-app.py
