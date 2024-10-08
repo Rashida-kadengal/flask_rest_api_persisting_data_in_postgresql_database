@@ -1,20 +1,20 @@
  REST APIs persisting data in postgresql database
   
- products
+ products:
         GET /products
         GET /products/<id>
         POST /products
         PUT /products/<id>
         DELETE /products/<id>
 
-categories
+categories:
         GET /categories
         GET /categories/<id>
         POST /categories
         PUT /categories/<id>
         DELETE /categories/<id>
 
-brands
+brands:
         GET /brands
         GET /brands/<id>
         POST /brands
